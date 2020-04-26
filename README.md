@@ -1,5 +1,7 @@
 <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=opnYJDo1eP&Days=1&Design=1" /></a>
 
+https://travis-ci.com/sokoow/se_hello_printer_app.svg?branch=master
+
 # Simple Flask App
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
