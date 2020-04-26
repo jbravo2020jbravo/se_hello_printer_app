@@ -1,15 +1,15 @@
 language: python
 services:
-        - docker
+- docker
 python:
-        - "3.6"
+- '3.6'
 install:
-        - make deps
+- make deps
 script:
-        - make docker_build
-        - make docker_push
-
+- make docker_build
+- make docker_push
 deploy:
-    provider: heroku
-    app: testowa-apka99
-    api_key: ${HEROKU_API_KEY}
+  provider: heroku
+  app: testowa-apka99
+  api_key:
+    secure: TR0FfL18WtCtJ6k3Y7uIrgNHRWRE8cj+Yl4Nl5HRagT+l2T0u733MC2HUFHnjX3WKFi8VBMxoMlK1scfCo1TYyhW8WLJGp79DZDotmopvHEKOTLKSqFPJB4XtaiuWE2uDQRfdpuXT8VPwW3YTmpM0TlBnLxEo1Zvud1fnnj5KSkfQ7TrMIris99pX8xwsFA7iHzKN0+qc3dSgB1wTuplT0SJe/NdFduyICrvhvmI3l7iMNEWJqWmo8phVnAb/3d0UHxDl0aNA1QCneuvgtMnBr31WZzDOYctXH/2RU73MdXb8aKSfQzp9Xc8v1Vg6GN5Kd5WiKzSUbq7RUQ8UxaVCS1CA5aAtPfOJb4j1+zcO8XVEnsbDpmspId6E3dD1ceVdER3v9gVJ0RrjGE1WH8TCrTRrRAemcn8EZF4A1luYPaadRZdSTkLcKlXG5BZv+2EBjfp3/NhpkOFH9ETs3+2jf0lksrTLIZQgGkuDfgXHngEQ/ZnMnLBb5lM1CSCy7x7h1pEEbzpI+2AlLK0sCGgoU8mEO2nV6Zgh/nEIDrk0maFjNvxc6VhMSVNGyHXi3do4QHfZ6FVet8oigauWABwA8NpNFBabakpt3E1XcD36ftmTXfEnuYC7zrFQunDAwMGf1i3luCyHo6ENtFDVP0lsrq6mCU/Eg/Mpjys8tNVSzY=
