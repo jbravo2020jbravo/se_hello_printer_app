@@ -7,11 +7,10 @@ install:
         - make deps
 script:
         - make test
-        - make lint
         - make docker_build
         - make docker_push
 
 deploy:
     provider: heroku
     app: testowa-apka99
-    api_key: ${HEROKU_API_KEY} 
+    api_key: ${HEROKU_API_KEY}
