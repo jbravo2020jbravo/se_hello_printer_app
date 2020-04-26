@@ -1,6 +1,6 @@
 <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=opnYJDo1eP&Days=1&Design=1" /></a>
 
-https://travis-ci.com/sokoow/se_hello_printer_app.svg?branch=master
+<a href="https://www.travis-ci.org" title="TravisCI master branch"><img src="https://travis-ci.com/sokoow/se_hello_printer_app.svg?branch=master" /></a>
 
 # Simple Flask App
 
